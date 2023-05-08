@@ -9,8 +9,9 @@
 	<h1>ROCK, PAPER, SCISSORS, (perhaps LIZZARD and SPOCK?)</h1>
 	<h3> Rules </h3>
 	<div class="rules">
-		<a href="https://www.youtube.com/watch?v=2dsHuU10udY" class="rules_item">Rules for Rock Paper Scissors</a>
-		<a href="https://www.youtube.com/watch?v=aQ1Nmxp55ms" class="rules_item">Rules for Rock Paper Scissors LIZZARD SPOCK</a>
+    
+		<a href="https://www.youtube.com/watch?v=2dsHuU10udY" class="rules_item">Rock Paper Scissors</a>
+		<a href="https://www.youtube.com/watch?v=aQ1Nmxp55ms" class="rules_item"> Rock Paper Scissors LIZZARD SPOCK</a>
 	</div>
 	<br>
 	<br>
@@ -41,7 +42,7 @@
 		<div class="vert">
 			<h2 class="title">Select Move</h2>
 			<div class="horz">
-				<button type="button" class="button" onclick="showMoves()">Show Moves</button>
+				<button type="button" class="button" onclick="showMoves()">Options</button>
 				<div id="move">
 					<select id="moves">
 					</select>
@@ -50,7 +51,7 @@
 		</div>
 		<br>
 		<div class="horz">
-			<button type="button" id="play" onclick="play()">Shoot!</button>
+			<button type="button" id="play" onclick="play()">play!</button>
 			<button type="button"  id="startOver" onclick="reset()">Reset</button>
 		</div>
 	</div>
@@ -58,5 +59,11 @@
 	<div id="output" class="output"></div>
 	<div id="output2" class="output"></div>
 	<div id="output3" class="output"></div>
+
+    <h2>
+        You: Scissors
+        Opponent: Paper
+        YOU WIN!
+    </h2>
     </body>
 </html>
